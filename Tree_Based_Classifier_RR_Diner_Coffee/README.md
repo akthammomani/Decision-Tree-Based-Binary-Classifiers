@@ -5,10 +5,7 @@
 
 **1. Introduction** 
 
-
-Imagine you've just been hired by a rising popular specialty coffee company - RR Diner Coffee - as a data scientist. Congratulations!
-
-RR Diner Coffee sells two types of thing:
+**RR Diner Coffee** sells two types of thing:
 - specialty coffee beans, in bulk (by the kilogram only) 
 - coffee equipment and merchandise (grinders, brewing equipment, mugs, books, t-shirts).
 
