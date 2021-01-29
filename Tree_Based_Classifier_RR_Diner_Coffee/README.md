@@ -15,7 +15,7 @@ RR Diner Coffee typically buys coffee from farmers, processes it on site, brings
 Now, RR Diner Coffee has a decision about whether to strike a deal with a legendary coffee farm (known as the **Hidden Farm**) in rural China: there are rumours their coffee tastes of lychee and dark chocolate, while also being as sweet as apple juice. 
 
 <p align="center">
-  <img width="660" height="500" src="https://user-images.githubusercontent.com/67468718/105829430-37fde600-5f79-11eb-8604-257cb2988a07.JPG">
+  <img width="660" height="300" src="https://user-images.githubusercontent.com/67468718/105829430-37fde600-5f79-11eb-8604-257cb2988a07.JPG">
 </p>
 
 
