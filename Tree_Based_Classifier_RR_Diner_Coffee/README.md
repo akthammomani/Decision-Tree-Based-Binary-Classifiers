@@ -61,12 +61,18 @@ This notebook uses decision trees to determine whether the factors of salary, ge
   
 **5. Modelling** 
 - Model 1: Entropy model - no max_depth
-  - As shown above, we have 9 leaves with purity at 0 (This is the ideal scenario), however 4 of them are having a very low number of samples so we cannot be very confident for their predictions (clear sign of over-fitting).
+  - As shown below, we have 9 leaves with purity at 0 (This is the ideal scenario), however 4 of them are having a very low number of samples so we cannot be very confident for their predictions (clear sign of over-fitting).
   - Features used in the splits: spend_last_month, Distance and Age (features importance illustrated below).
   - As shown below, we have a fully grown Decision Tree (none of the parameters were set e.g., max_depth) as a result the tree grows to a fully to a depth of 5. There are 8 nodes and 9 leaves: Not limiting the growth of a Decision Tree will delay reaching the split choices that will get us to the pure nodes (leaves=predictions) causing over-fitting.
 
 ![DT_entropy](https://user-images.githubusercontent.com/67468718/106380151-33fd0a00-6365-11eb-8069-18886dc9198b.png)
 - Model 2: Gini impurity model - no max_depth
+  - As shown below, we have 11 leaves with purity at 0 (This is the ideal scenario), however 6 of them are having a very low number of samples so we cannot be very confident for their predictions (clear sign of over-fitting).
+  - Features used in the splits: spend_last_month, Distance, Age and num_coffeeBags_per_year (features importance illustrated below).
+  - As shown below, we have a fully grown Decision Tree (none of the parameters were set e.g., max_depth) as a result the tree grows to a fully to a depth of 6. There are 10 nodes and 11 leaves: Not limiting the growth of a Decision Tree will delay reaching the split choices that will get us to the pure nodes (leaves=predictions) causing over-fitting.
+  
+![DT_gini](https://user-images.githubusercontent.com/67468718/106380152-3495a080-6365-11eb-83d3-a7a323756049.png)
+
 - Model 3: Entropy model - max depth 3
 - Model 4: Gini impurity model - max depth 3
 - Model 5: Random Forests model - max depth 3
