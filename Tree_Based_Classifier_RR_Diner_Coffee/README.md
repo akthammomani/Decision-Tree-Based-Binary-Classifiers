@@ -65,7 +65,7 @@ This notebook uses decision trees to determine whether the factors of salary, ge
   - Features used in the splits: spend_last_month, Distance and Age (features importance illustrated below).
   - As shown below, we have a fully grown Decision Tree (none of the parameters were set e.g., max_depth) as a result the tree grows to a fully to a depth of 5. There are 8 nodes and 9 leaves: Not limiting the growth of a Decision Tree will delay reaching the split choices that will get us to the pure nodes (leaves=predictions) causing over-fitting.
 
-![Decision](https://user-images.githubusercontent.com/67468718/106380149-33647380-6365-11eb-911c-48f8b8a6e01c.JPG)
+![DT_entropy](https://user-images.githubusercontent.com/67468718/106380151-33fd0a00-6365-11eb-8069-18886dc9198b.png)
 - Model 2: Gini impurity model - no max_depth
 - Model 3: Entropy model - max depth 3
 - Model 4: Gini impurity model - max depth 3
