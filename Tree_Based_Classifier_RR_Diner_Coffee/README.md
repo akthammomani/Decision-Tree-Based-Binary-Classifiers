@@ -139,3 +139,11 @@ This notebook uses decision trees to determine whether the factors of salary, ge
 - Because our Dataset is imbalanced; accuracy should not be used to measure our Models Performance.
 - Instead of Accuracy, we need to focus in Confusion Matrix that shows the correct predictions and types of incorrect predictions, as shown below the prediction power of "Yes" has increased in Random Forest compared to Gini Model.
 - In addition to confusion matrix we can use ROC AUC from sklearn.metrics to evaluate metrics for calculating the performance of any classification model's performance, as shown below AUC score is signficantly higher in Random Forest compared to Gini Model
+
+|Model|AUC|
+|:---:|:-:|
+|Random Forest Model|0.994997|
+|Gini Model2|0.987023|
+|Entropy Model2|0.976548|
+|Gini Model|0.981395|
+|Entropy Model|0.987805|
