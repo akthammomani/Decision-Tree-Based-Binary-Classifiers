@@ -1,5 +1,9 @@
 # Project: Decision Tree Specialty Coffee
 
+<p align="center">
+  <img width="750" height="350" src="https://user-images.githubusercontent.com/67468718/105829430-37fde600-5f79-11eb-8604-257cb2988a07.JPG">
+</p>
+
 ## 1. Introduction
 
 Imagine you've just been hired by a rising popular specialty coffee company - RR Diner Coffee - as a data scientist. Congratulations!
