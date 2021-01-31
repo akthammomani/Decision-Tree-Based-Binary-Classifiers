@@ -45,12 +45,12 @@ To solve the problem, then, you will build a decision tree to implement **a clas
 
 This notebook uses decision trees to determine whether the factors of salary, gender, age, how much money the customer spent last week and during the preceding month on RR Diner Coffee products, how many kilogram coffee bags the customer bought over the last year, whether they have bought at least one RR Diner Coffee product online, and their distance from the flagship store in the USA, could predict whether customers would purchase the Hidden Farm coffee if a deal with its farmers were struck. 
 
-**3. Sourcing and loading** 
+## 3. Sourcing and loading
 - Import packages
 - Load data
 - Explore the data
  
-**4. Cleaning, transforming and visualizing**
+## 4. Cleaning, transforming and visualizing
 - Cleaning the data
 - Train/test split  
   
@@ -59,6 +59,7 @@ This notebook uses decision trees to determine whether the factors of salary, ge
 - Model 2: Gini impurity model - no max_depth
 - Model 3: Entropy model - max depth 3
 - Model 4: Gini impurity model - max depth 3
+- Model 5: Random Forests model - max depth 3
 
 **6. Evaluating and concluding** 
 - How many customers will buy Hidden Farm coffee?
