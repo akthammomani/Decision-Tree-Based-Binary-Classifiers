@@ -52,6 +52,7 @@ This notebook uses decision trees to determine whether the factors of salary, ge
  
 ## 4. Cleaning, transforming and visualizing
 - Imbalanced Dataset:
+
 ![Decision](https://user-images.githubusercontent.com/67468718/106380149-33647380-6365-11eb-911c-48f8b8a6e01c.JPG)
 - Train/test split  
   
