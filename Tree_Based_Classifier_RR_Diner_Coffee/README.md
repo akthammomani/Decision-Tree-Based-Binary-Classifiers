@@ -142,8 +142,8 @@ This notebook uses decision trees to determine whether the factors of salary, ge
 
 |Model|AUC|
 |:---:|:-:|
-|Random Forest Model|0.994997|
-|Gini Model2|0.987023|
-|Entropy Model2|0.976548|
-|Gini Model|0.981395|
-|Entropy Model|0.987805|
+|Random Forest Model|99.4997|
+|Gini Model2|98.7023|
+|Entropy Model2|97.6548|
+|Gini Model|98.1395|
+|Entropy Model|98.7805|
