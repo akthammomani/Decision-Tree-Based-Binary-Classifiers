@@ -121,7 +121,7 @@ This notebook uses decision trees to determine whether the factors of salary, ge
   - FN (False Negatives): Model predicted "YES" and it was actually "No" = 6 (Increased by 4 compared to Gini)
   - Total "Yes" was 84
   
-  **Random Forest model 5 - max depth 3: Confusion Matrix Breakdown:**
+**<ins>Random Forest model 5 - max depth 3:<ins>** **Confusion Matrix Breakdown:**
 
 | Metrics | value  |Metrics   | value  | Total  | value  |
 |:---:|:---:|:---:|:---:|:---:|:---:|
