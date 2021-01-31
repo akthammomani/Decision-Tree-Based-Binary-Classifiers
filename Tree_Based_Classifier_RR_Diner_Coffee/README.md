@@ -60,7 +60,7 @@ This notebook uses decision trees to determine whether the factors of salary, ge
 
 - Train/test split  
   
-## 5. Modelling** 
+## 5. Modelling 
 - **Model 1: Entropy model - no max_depth** 
   - As shown below, we have 9 leaves with purity at 0 (This is the ideal scenario), however 4 of them are having a very low number of samples so we cannot be very confident for their predictions (clear sign of over-fitting).
   - Features used in the splits: spend_last_month, Distance and Age.
@@ -90,7 +90,10 @@ This notebook uses decision trees to determine whether the factors of salary, ge
 
 ![DT_gini_d_3](https://user-images.githubusercontent.com/67468718/106380153-3495a080-6365-11eb-8097-572b6d44b2e9.png)
 
-- Model 5: Random Forests model - max depth 3
+- **Why Model 4: Gini impurity model - max depth 3 is the best so far?**
+
+  - Calculation of Entropy in Gini method behaves in the same way but entropy involves a log computation and Gini impurity involved a square computation. Since computing square is cheaper than logarithmic function we prefer Gini impurity over entropy.
+  - We have 7 leaves with purity at 0 (One Class) in Gini compared to only 5 leaves with purity at 0in Entropy: The more leaves with purity=0 and high samples the more information gain (more predicition power).
 
 **6. Evaluating and concluding** 
 - How many customers will buy Hidden Farm coffee?
