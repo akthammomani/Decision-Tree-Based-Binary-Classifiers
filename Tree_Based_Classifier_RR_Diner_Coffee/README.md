@@ -20,10 +20,6 @@ RR Diner Coffee typically buys coffee from farmers, processes it on site, brings
 
 Now, RR Diner Coffee has a decision about whether to strike a deal with a legendary coffee farm (known as the **Hidden Farm**) in rural China: there are rumours their coffee tastes of lychee and dark chocolate, while also being as sweet as apple juice. 
 
-<p align="center">
-  <img width="750" height="350" src="https://user-images.githubusercontent.com/67468718/105829430-37fde600-5f79-11eb-8604-257cb2988a07.JPG">
-</p>
-
 It's a risky decision, as the deal will be expensive, and the coffee might not be bought by customers. The stakes are high: times are tough, stocks are low, farmers are reverting to old deals with the larger enterprises and the publicity of selling *Hidden Farm* coffee could save the RR Diner Coffee business. 
 
 Your first job, then, is ***To build a decision tree to predict how many units of the Hidden Farm Chinese coffee will be purchased by RR Diner Coffee's most loyal customers.*** 
