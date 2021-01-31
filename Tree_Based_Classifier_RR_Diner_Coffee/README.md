@@ -52,6 +52,9 @@ This notebook uses decision trees to determine whether the factors of salary, ge
  
 ## 4. Cleaning, transforming and visualizing
 - Imbalanced Dataset:
+  - RR Coffee's Customers who said "Yes", The closer they're from RR Coffeee store the more they spent last month.
+  - RR Coffee's Customers who said "No", The closer they're from RR Coffeee store the less they spent last month.
+  - The Dataset is imbalanced (303 said 'YES' & 171 said 'NO') and this will affect negatively the Models score accuracy
 
 ![Decision](https://user-images.githubusercontent.com/67468718/106380149-33647380-6365-11eb-911c-48f8b8a6e01c.JPG)
 - Train/test split  
