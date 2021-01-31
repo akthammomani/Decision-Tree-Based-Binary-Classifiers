@@ -92,7 +92,7 @@ This notebook uses decision trees to determine whether the factors of salary, ge
 
 - **Why Model 4: Gini impurity model - max depth 3 is the best so far?**
 
-  - Calculation of Entropy in Gini method behaves in the same way but entropy involves a log computation and Gini impurity involved a square computation. Since computing square is cheaper than logarithmic function we prefer Gini impurity over entropy.
+  - Calculation of Entropy & Gini methods behaves in the same way but entropy involves a log computation and Gini impurity involved a square computation. Since computing square is cheaper than logarithmic function we prefer Gini impurity over entropy.
   - We have 7 leaves with purity at 0 (One Class) in Gini compared to only 5 leaves with purity at 0in Entropy: The more leaves with purity=0 and high samples the more information gain (more predicition power).
 
 **6. Evaluating and concluding** 
