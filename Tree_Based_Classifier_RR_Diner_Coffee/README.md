@@ -6,8 +6,6 @@
 
 ## 1. Introduction
 
-Imagine you've just been hired by a rising popular specialty coffee company - RR Diner Coffee - as a data scientist. Congratulations!
-
 **RR Diner Coffee** sells two types of thing:
 - specialty coffee beans, in bulk (by the kilogram only) 
 - coffee equipment and merchandise (grinders, brewing equipment, mugs, books, t-shirts).
@@ -22,7 +20,7 @@ Now, RR Diner Coffee has a decision about whether to strike a deal with a legend
 
 It's a risky decision, as the deal will be expensive, and the coffee might not be bought by customers. The stakes are high: times are tough, stocks are low, farmers are reverting to old deals with the larger enterprises and the publicity of selling *Hidden Farm* coffee could save the RR Diner Coffee business. 
 
-Your first job, then, is ***To build a decision tree to predict how many units of the Hidden Farm Chinese coffee will be purchased by RR Diner Coffee's most loyal customers.*** 
+So our job here is ***To build a decision tree to predict how many units of the Hidden Farm Chinese coffee will be purchased by RR Diner Coffee's most loyal customers.*** 
 
 To this end, you and your team have conducted a survey of 710 of the most loyal RR Diner Coffee customers, collecting data on the customers':
 - age
