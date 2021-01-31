@@ -105,6 +105,12 @@ This notebook uses decision trees to determine whether the factors of salary, ge
 
 ## 7. Final Conclusion
 - How many customers will buy Hidden Farm coffee?
-- Decision
+
+**Model 5: Random Forest Model 5** has shown an increase of the potetial buyers by 3.2% from 183 to 189 potetial buyers and that put us exactly at 70.1 % which is more than indicated 70% of the interviewed customers who are likely to buy the Hidden Farm coffee.
+
 
 ## 8. Why Random Forests outerperform Gini Model2, even with much lower Accuracy?
+
+- Because our Dataset is imbalanced; accuracy should not be used to measure our Models Performance.
+- Instead of Accuracy, we need to focus in Confusion Matrix that shows the correct predictions and types of incorrect predictions, as shown below the prediction power of "Yes" has increased in Random Forest compared to Gini Model.
+- In addition to confusion matrix we can use ROC AUC from sklearn.metrics to evaluate metrics for calculating the performance of any classification model's performance, as shown below AUC score is signficantly higher in Random Forest compared to Gini Model
