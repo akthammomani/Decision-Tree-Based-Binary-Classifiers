@@ -61,7 +61,7 @@ This notebook uses decision trees to determine whether the factors of salary, ge
 - Train/test split  
   
 ## 5. Modelling** 
-- ** Model 1: Entropy model - no max_depth** 
+- **Model 1: Entropy model - no max_depth** 
   - As shown below, we have 9 leaves with purity at 0 (This is the ideal scenario), however 4 of them are having a very low number of samples so we cannot be very confident for their predictions (clear sign of over-fitting).
   - Features used in the splits: spend_last_month, Distance and Age.
   - As shown below, we have a fully grown Decision Tree (none of the parameters were set e.g., max_depth) as a result the tree grows to a fully to a depth of 5. There are 8 nodes and 9 leaves: Not limiting the growth of a Decision Tree will delay reaching the split choices that will get us to the pure nodes (leaves=predictions) causing over-fitting.
