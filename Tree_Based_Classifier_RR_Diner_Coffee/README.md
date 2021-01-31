@@ -106,7 +106,7 @@ This notebook uses decision trees to determine whether the factors of salary, ge
 ## 7. Final Conclusion
 - How many customers will buy Hidden Farm coffee?
 
-**Model 5: Random Forest Model 5** has shown an increase of the potetial buyers by 3.2% from 183 to 189 potetial buyers and that put us exactly at 70.1 % which is more than indicated 70% of the interviewed customers who are likely to buy the Hidden Farm coffee.
+  - **Model 5: Random Forest Model 5** has shown an increase of the potetial buyers by 3.2% from 183 to 189 potetial buyers and that put us exactly at 70.1 % which is more than indicated 70% of the interviewed customers who are likely to buy the Hidden Farm coffee.
 
 
 ## 8. Why Random Forests outerperform Gini Model2, even with much lower Accuracy?
