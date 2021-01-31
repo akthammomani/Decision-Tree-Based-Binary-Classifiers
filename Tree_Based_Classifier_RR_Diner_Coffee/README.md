@@ -107,7 +107,7 @@ This notebook uses decision trees to determine whether the factors of salary, ge
   - FN (False Negatives): Model predicted "YES" and it was actually "No" = 2
   - Total "Yes" was 80
   
-  **<ins>Gini impurity  model - max depth 3:<ins>** **Confusion Matrix Breakdown**
+**<ins>Gini impurity  model - max depth 3:<ins>** **Confusion Matrix Breakdown**
 
 | Metrics | value  |Metrics   | value  | Total  | value  |
 |:---:|:---:|:---:|:---:|:---:|:---:|
