@@ -99,9 +99,34 @@ This notebook uses decision trees to determine whether the factors of salary, ge
   - We have 7 leaves with purity at 0 (One Class) in Gini compared to only 5 leaves with purity at 0in Entropy: The more leaves with purity=0 and high samples the more information gain (more predicition power).
 
 
-## 6. Model 5: Random Forest
-- Import necessary modules
-- Model
+## 6. Model 5: Random Forest vs Model 4: Gini Impurity 
+- Gini impurity  model - max depth 3:
+  - Actual Data it's distributed as "NO"=41 and "YES"=78
+  - TP (True Positives): Model predicted "NO" and it was actually "NO" = 39
+  - TN (True Negatives): Model predicted "YES" and it was actually "YES" = 77
+  - FN (False Negatives): Model predicted "YES" and it was actually "No" = 2
+  - Total "Yes" was 80
+  
+  **<ins>Gini impurity  model - max depth 3:<ins>** **Confusion Matrix Breakdown**
+
+| Metrics | value  |Metrics   | value  | Total  | value  |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| TP |  39 | FN  | 2  |Total   | 41  |
+| FP |   1|  TN | 77  |Total   | 78  |  
+
+- Random Forest model 5 - max depth 3:
+  - Actual Data it's distributed as "NO"=41 and "YES"=78
+  - TP (True Positives): Model predicted "NO" and it was actually "NO" = 35 (Less than Gini Model)
+  - TN (True Negatives): Model predicted "YES" and it was actually "YES" = 77 (Similar to Gini)
+  - FN (False Negatives): Model predicted "YES" and it was actually "No" = 6 (Increased by 4 compared to Gini)
+  - Total "Yes" was 84
+  
+  **Random Forest model 5 - max depth 3: Confusion Matrix Breakdown:**
+
+| Metrics | value  |Metrics   | value  | Total  | value  |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| TP |  35 | FN  | 6  |Total   | 41  |
+| FP |   1|  TN | 77  |Total   | 78  | 
 
 ## 7. Final Conclusion
 - How many customers will buy Hidden Farm coffee?
