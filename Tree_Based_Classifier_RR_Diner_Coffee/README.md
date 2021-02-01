@@ -99,7 +99,7 @@ This notebook uses decision trees to determine whether the factors of salary, ge
 
 ## 6. Model 5: Random Forest vs Model 4: Gini Impurity 
 - Gini impurity  model - max depth 3:
-  - Actual Data it's distributed as "NO"=41 and "YES"=78
+  - Actual Data is distributed as "NO"=41 and "YES"=78
   - TP (True Positives): Model predicted "NO" and it was actually "NO" = 39
   - TN (True Negatives): Model predicted "YES" and it was actually "YES" = 77
   - FN (False Negatives): Model predicted "YES" and it was actually "No" = 2
@@ -113,7 +113,7 @@ This notebook uses decision trees to determine whether the factors of salary, ge
 | FP |   1|  TN | 77  |Total   | 78  |  
 
 - Random Forest model 5 - max depth 3:
-  - Actual Data it's distributed as "NO"=41 and "YES"=78
+  - Actual Data is distributed as "NO"=41 and "YES"=78
   - TP (True Positives): Model predicted "NO" and it was actually "NO" = 35 (Less than Gini Model)
   - TN (True Negatives): Model predicted "YES" and it was actually "YES" = 77 (Similar to Gini)
   - FN (False Negatives): Model predicted "YES" and it was actually "No" = 6 (Increased by 4 compared to Gini)
